@@ -16,14 +16,6 @@ You may assume that the input is square and contains at least one row and column
 """
 
 
-#this program has important an important logic of checking for element if occurring more than once
-
-#.. using check_list and checking element in it if it's not here then return False if here then remove it
-#this logic can be modified accordingly as now it is as per the sudoku check(slight changes are required for particular application
-# because here we are making check_list for valid values in square of sudoku(eg. 1 to 4 for a 4x4 square and 1 to 9 for 9x9 square and so
-#on .. Here the checklist is initially a list of elements that are expected in the sudoku   
-# values other than 1 to 9 are invalid
-# values other than 1 to n (for nxn sudoku) are invalid    eg. 'a' ,'b' ,'c'....... are invalid for sudoku
 
 eg_sudoku = [                                                     # 4x4 square
     [1,2,3,4],
